@@ -1,0 +1,30 @@
+access the home page
+    GET /
+Submit a contact form
+    POST /contact
+Access the posts page
+    GET /posts
+Access the edit page for a post
+    GET /posts/:post_id/edit
+Access the create page for a post
+    GET /posts/new
+Create a new user
+    POST /users/new
+Log In
+    POST /users/login
+Log Out
+    GET /users/logout
+Access the comments for a post page
+    GET /posts/:post_id/comments
+Access the create page for a post's comment
+    GET /posts/:post_id/comments/new
+Access the edit page for a comment
+    GET /comments/:comment_id/edit
+Submit a like for a post
+    POST /posts/:post_id/likes/new
+Delete a like for a post
+    POST /posts/:post_id/likes/delete
+Access all the posts of a user
+    GET /users/:user_id/posts
+Submit a search on posts
+    GET /posts/search
